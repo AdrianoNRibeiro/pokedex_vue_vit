@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="card card-pokemonSelected" :class="loading? '': 'animate__animated animate__flipInY'">
+  <div class="card card-pokemonSelected" :class="loading? '': 'animate__animated animate__rotateInDownLeft'">
     <img v-if="pokemon.name" :src="pokemon.img" height="300" class="card-img-top pt-2" :alt="pokemon.name">
     <img v-else src="../assets/egg_pokemon.svg" height="300" class="card-img-top pt-2" alt="Egg Pokemon">
     <div class="card-body">
