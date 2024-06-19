@@ -3,7 +3,7 @@ const pokemon = defineProps(["name","urlBaseSvg"]);
 </script>
 
 <template>
-    <div class="col-4">
+    <div class="col-6 col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
         <div class="card mb-3 p-2 carListPokemon">
           <p class="text-center">{{ pokemon.name }}</p>
           <img :src="urlBaseSvg" class="card-img-top" alt="pokemon" height="85"/>
